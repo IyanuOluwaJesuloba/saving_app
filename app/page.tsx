@@ -14,7 +14,7 @@ export default function Home() {
     <SavingsProvider>
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
         <header className="bg-white dark:bg-slate-950 shadow-sm">
-          <div className="container mx-auto py-6">
+          <div className="container mx-auto py-6 px-2">
             <h1 className="text-3xl font-bold text-slate-900 dark:text-white">Blockchain Game Savings Group</h1>
             <p className="text-slate-600 dark:text-slate-400 mt-2">
               Invest together, earn together - 20% returns on gameplay
