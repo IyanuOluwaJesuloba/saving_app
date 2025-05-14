@@ -34,7 +34,7 @@ This web application allows 12 students to form a savings group with three diffe
 ### Prerequisites
 
 - Node.js 18.0 or later
-- npm or yarn
+- bun
 
 ### Installation
 
@@ -46,17 +46,13 @@ This web application allows 12 students to form a savings group with three diffe
 
 2. Install dependencies:
    \`\`\`bash
-   npm install
-   # or
-   yarn install
-   \`\`\`
+   bun install
+  
 
 3. Run the development server:
    \`\`\`bash
-   npm run dev
-   # or
-   yarn dev
-   \`\`\`
+   bun run dev
+  
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
@@ -106,6 +102,3 @@ The application uses browser localStorage to persist data between sessions. This
 - Responsive design that works on mobile and desktop
 - Uses shadcn/ui components for a consistent UI
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
